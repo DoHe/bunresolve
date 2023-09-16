@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "wbun": "bun run a.js",
+    "wesbuild": "node esbuildtest.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "esbuild": "^0.19.3"
+  },
+  "type": "module"
+}
