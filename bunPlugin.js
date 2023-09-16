@@ -2,7 +2,7 @@ import { plugin } from 'bun';
 
 plugin({
   name: 'No op',
-  setup(build) {
+  async setup(build) {
     build.onResolve({ filter: /\.js$/ }, async (args) => {
       return { path: args.path };
     });
